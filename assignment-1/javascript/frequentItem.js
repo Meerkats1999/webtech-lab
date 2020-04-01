@@ -2,8 +2,7 @@ var numArray = [];
 
 function fetchDataFrequent(){ 
     var value = document.getElementById("frequentNum").value; 
-    var number = value.toString();
-    numArray.push(number);
+    numArray = value.split(",");
 }
 
 function displayFrequent(){
