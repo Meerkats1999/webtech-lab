@@ -7,7 +7,7 @@ function validateEmail() {
     if (filter.test(email.toLowerCase()) == false) {
         alert('Not Valid Email Address');
     }
-    else{
+    else {
         alert('Valid Email Address')
     }
 }
